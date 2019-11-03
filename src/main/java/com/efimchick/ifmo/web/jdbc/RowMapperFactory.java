@@ -5,7 +5,6 @@ import java.sql.ResultSet;
 import com.efimchick.ifmo.web.jdbc.domain.Employee;
 import com.efimchick.ifmo.web.jdbc.domain.FullName;
 import com.efimchick.ifmo.web.jdbc.domain.Position;
-import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.time.LocalDate;
 
