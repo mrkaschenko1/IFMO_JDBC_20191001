@@ -15,7 +15,6 @@ import java.time.LocalDate;
 public class SetMapperFactory {
 
     public SetMapper<Set<Employee>> employeesSetMapper() {
-        //throw new UnsupportedOperationException();
         return new SetMapper<Set<Employee>>() {
            @Override
            public Set<Employee> mapSet(ResultSet resultSet) {
