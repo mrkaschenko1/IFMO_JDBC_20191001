@@ -34,11 +34,8 @@ public class SetMapperFactory {
     }
     private static Employee getEmployee(ResultSet resultSet) throws SQLException {
         try {
-            // int currentRow = resultSet.getRow();
-            // int managerId = resultSet.getInt("manager");
             Employee manager = null;
             Employee employee;
-
             BigInteger id = new BigInteger(resultSet.getString("id"));
             FullName fullName = new FullName(
                     resultSet.getString("firstName"),
